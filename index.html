@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#dac5a7" />
+    <title>Hady Mohamed Portfolio</title>
+    <!-- font awesome css file  -->
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <!-- tailwindcss css file -->
+    <link rel="stylesheet" href="assets/css/tailwindcss.css" />
+    <!-- main css file -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="bg-secondary text-primary relative">
+    <div id="particles-js"></div>
+    <div class="follow-cursor" id="cursor"></div>
+    <nav
+      class="fixed z-[99999] top-[20px] left-[50%] translate-x-[-50%] py-2 px-4 rounded-md flex items-center gap-4 bg-primary/10 backdrop-blur w-max"
+    >
+      <ul class="list-none p-0 m-0 flex items-center gap-4">
+        <li>
+          <a
+            href="#AboutMe"
+            class="text-primary duration-300 hover:text-white text-sm md:text-base"
+            >About Me</a
+          >
+        </li>
+        <li>
+          <a
+            href="#Services"
+            class="text-primary duration-300 hover:text-white text-sm md:text-base"
+          >
+            Services
+          </a>
+        </li>
+        <li>
+          <a
+            href="#Projects"
+            class="text-primary duration-300 hover:text-white text-sm md:text-base"
+            >Projects</a
+          >
+        </li>
+      </ul>
+      <a
+        href="https://wa.me/201029379363"
+        target="_blank"
+        class="bg-primary py-1 px-3 rounded-md text-secondary transition duration-300 hover:bg-secondary hover:text-primary text-sm md:text-base"
+      >
+        Let's Talk
+      </a>
+    </nav>
+    <!-- start hero section -->
+    <section
+      class="hero min-h-screen flex flex-col justify-center items-center relative"
+    >
+      <div
+        class="profile-photo relative bottom-[-70px] z-[-1] w-[270px] md:w-auto"
+      >
+        <img
+          src="assets/images/profile-photo.png"
+          alt="hady mohamed fronentend developer"
+          class="brightness-75"
+        />
+      </div>
+      <div
+        class="hero-content relative top-[-100px] flex flex-col justify-center items-center"
+      >
+        <h1
+          class="text-4xl md:text-5xl lg:text-7xl text-center font-extralight uppercase"
+        >
+          frontend developer
+        </h1>
+        <p class="text-primary text-center">
+          Building modern, interactive web experiences with cutting-edge
+          technologies.
+        </p>
+        <a
+          href="https://wa.me/201029379363"
+          target="_blank"
+          class="block py-2 px-10 animate-pulse hover:animate-[none] rounded-tl-xl rounded-br-xl rounded-bl-md rounded-tr-md mt-7 border border-primary cursor-pointer transition duration-300 hover:bg-primary hover:text-secondary"
+        >
+          Contact Us
+        </a>
+      </div>
+    </section>
+    <!-- end hero section -->
+
+    <!-- start logos slider -->
+    <div class="out-logo-slider container px-5 mx-auto">
+      <div class="logo-slider">
+        <div class="logo-track gap-[40px] md:gap-[60px] lg:gap-[70px]">
+          <img
+            src="assets/images/skill-1.png"
+            alt="frontend skills"
+            draggable="false"
+          />
+          <img
+            src="assets/images/skill-2.png"
+            alt="frontend skills"
+            draggable="false"
+          />
+          <img
+            src="assets/images/skill-3.png"
+            alt="frontend skills"
+            draggable="false"
+          />
+          <img
+            src="assets/images/skill-4.png"
+            alt="frontend skills"
+            draggable="false"
+          />
+          <img
+            src="assets/images/skill-5.png"
+            alt="frontend skills"
+            draggable="false"
+          />
+          <img
+            src="assets/images/skill-6.png"
+            alt="frontend skills"
+            draggable="false"
+          />
+          <img
+            src="assets/images/skill-7.png"
+            alt="frontend skills"
+            draggable="false"
+          />
+          <img
+            src="assets/images/skill-8.png"
+            alt="frontend skills"
+            draggable="false"
+          />
+          <img
+            src="assets/images/skill-9.png"
+            alt="frontend skills"
+            draggable="false"
+          />
+          <img
+            src="assets/images/skill-1.png"
+            alt="frontend skills"
+            draggable="false"
+          />
+          <img
+            src="assets/images/skill-2.png"
+            alt="frontend skills"
+            draggable="false"
+          />
+          <img
+            src="assets/images/skill-3.png"
+            alt="frontend skills"
+            draggable="false"
+          />
+          <img
+            src="assets/images/skill-4.png"
+            alt="frontend skills"
+            draggable="false"
+          />
+          <img
+            src="assets/images/skill-5.png"
+            alt="frontend skills"
+            draggable="false"
+          />
+          <img
+            src="assets/images/skill-6.png"
+            alt="frontend skills"
+            draggable="false"
+          />
+          <img
+            src="assets/images/skill-7.png"
+            alt="frontend skills"
+            draggable="false"
+          />
+          <img
+            src="assets/images/skill-8.png"
+            alt="frontend skills"
+            draggable="false"
+          />
+          <img
+            src="assets/images/skill-9.png"
+            alt="frontend skills"
+            draggable="false"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- end logos slider -->
+
+    <!-- start about me section -->
+    <section class="about-me my-14" id="AboutMe">
+      <h1
+        class="section-title text-center font-bold text-6xl md:text-7xl mb-12 text-secondary"
+      >
+        About Me
+      </h1>
+      <div
+        class="container mx-auto px-5 grid gap-x-3 gap-y-7 grid-cols-1 md:grid-cols-2"
+      >
+        <div class="text">
+          <h2
+            class="font-extralight text-4xl md:text-5xl mb-7 text-center md:text-start"
+          >
+            I'M <span class="font-bold">HADY</span> MOHAMED
+          </h2>
+          <p
+            class="text-primary/50 mb-2 w-[90%] md:w-[80%] text-xs md:text-sm lg:text-base text-center md:text-start mx-auto md:mx-0"
+          >
+            I am a Frontend Developer with two years of experience in building
+            modern user interfaces, proficient in HTML, CSS, JavaScript, and the
+            React framework. I have experience working with and customizing
+            WordPress to create dynamic and flexible websites. I have
+            collaborated on multiple projects with UI/UX designers to enhance
+            user experience and with backend developers to ensure seamless
+            integration between frontend interfaces and backend systems.
+          </p>
+          <p
+            class="text-primary/50 w-[90%] md:w-[80%] text-xs md:text-sm lg:text-base text-center md:text-start mx-auto md:mx-0"
+          >
+            I possess strong skills in designing and optimizing user
+            experiences, utilizing technologies such as Bootstrap and Tailwind
+            CSS to create modern, responsive designs. I am always eager to
+            develop my skills and stay up to date with the latest technologies
+            to build high-performance web applications that deliver a smooth
+            user experience.
+          </p>
+          <div class="download-cv-btn flex justify-center md:justify-start">
+            <a
+              href="https://drive.google.com/file/d/191mpt8iFSUMThD0JSxpsxKnzXIpvDrj3/view?usp=sharing"
+              target="_blank"
+              class="animate-pulse hover:animate-none mt-7 py-2 px-5 rounded-tl-xl rounded-br-xl rounded-bl-md rounded-tr-md border bg-primary text-secondary border-primary/25 transition duration-300 hover:bg-transparent hover:text-primary hover:border-primary"
+              >Download CV</a
+            >
+          </div>
+        </div>
+        <div class="skills">
+          <h2 class="font-extralight text-4xl md:text-5xl mb-7">Skills :</h2>
+          <div class="skills-info flex flex-col gap-5">
+            <div class="skill-box flex items-center gap-3">
+              <h3
+                class="skill-label mb-3 text-lg md:text-xl lg:text-2xl w-[150px] md:w-[170px]"
+              >
+                HTML
+              </h3>
+              <div
+                class="progress relative w-full h-4 rounded-full bg-primary/40"
+              >
+                <span
+                  data-value="90%"
+                  class="absolute w-[90%] bg-primary h-full rounded-l-full"
+                ></span>
+              </div>
+            </div>
+            <div class="skill-box flex items-center gap-3">
+              <h3
+                class="skill-label mb-3 text-lg md:text-xl lg:text-2xl w-[150px] md:w-[170px]"
+              >
+                CSS
+              </h3>
+              <div
+                class="progress relative w-full h-4 rounded-full bg-primary/40"
+              >
+                <span
+                  data-value="90%"
+                  class="absolute w-[90%] bg-primary h-full rounded-l-full"
+                ></span>
+              </div>
+            </div>
+            <div class="skill-box flex items-center gap-3">
+              <h3
+                class="skill-label mb-3 text-lg md:text-xl lg:text-2xl w-[150px] md:w-[170px]"
+              >
+                JS
+              </h3>
+              <div
+                class="progress relative w-full h-4 rounded-full bg-primary/40"
+              >
+                <span
+                  data-value="85%"
+                  class="absolute w-[85%] bg-primary h-full rounded-l-full"
+                ></span>
+              </div>
+            </div>
+            <div class="skill-box flex items-center gap-3">
+              <h3
+                class="skill-label mb-3 text-lg md:text-xl lg:text-2xl w-[150px] md:w-[170px]"
+              >
+                Bootstrap
+              </h3>
+              <div
+                class="progress relative w-full h-4 rounded-full bg-primary/40"
+              >
+                <span
+                  data-value="90%"
+                  class="absolute w-[90%] bg-primary h-full rounded-l-full"
+                ></span>
+              </div>
+            </div>
+            <div class="skill-box flex items-center gap-3">
+              <h3
+                class="skill-label mb-3 text-lg md:text-xl lg:text-2xl w-[150px] md:w-[170px]"
+              >
+                Tailwindcss
+              </h3>
+              <div
+                class="progress relative w-full h-4 rounded-full bg-primary/40"
+              >
+                <span
+                  data-value="90%"
+                  class="absolute w-[90%] bg-primary h-full rounded-l-full"
+                ></span>
+              </div>
+            </div>
+            <div class="skill-box flex items-center gap-3">
+              <h3
+                class="skill-label mb-3 text-lg md:text-xl lg:text-2xl w-[150px] md:w-[170px]"
+              >
+                React
+              </h3>
+              <div
+                class="progress relative w-full h-4 rounded-full bg-primary/40"
+              >
+                <span
+                  data-value="80%"
+                  class="absolute w-[80%] bg-primary h-full rounded-l-full"
+                ></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end about me section -->
+
+    <!-- start services section -->
+    <section class="services my-14 py-12" id="Services">
+      <h1
+        class="section-title text-center font-bold text-6xl md:text-7xl mb-12 text-secondary"
+      >
+        Services
+      </h1>
+      <div
+        class="container mx-auto px-5 flex items-center gap-3 flex-wrap justify-center"
+      >
+        <div
+          class="skill-box w-full md:w-[31%] min-w-[300px] p-7 bg-secondary rounded-2xl md:rounded-tl-3xl md:rounded-br-3xl md:rounded-bl-none md:rounded-tr-none border border-primary/25 transition duration-300 hover:scale-[1.03] hover:z-[50] hover:shadow-lg"
+        >
+          <h6 class="num text-primary/70">01</h6>
+          <h3 class="font-bold text-2xl mt-2 mb-3">Website Development</h3>
+          <p class="text-primary/70">
+            Building modern websites using HTML, CSS, and JavaScript for a great
+            user experience and high performance.
+          </p>
+          <a
+            href="https://wa.me/201029379363"
+            target="_blank"
+            class="contact border py-2 px-3 mt-4 block w-fit border-primary/25 rounded-md transition duration-300 hover:text-secondary hover:bg-primary hover:border-primary"
+            >Contact Us</a
+          >
+        </div>
+        <div
+          class="skill-box w-full md:w-[31%] min-w-[300px] p-7 bg-secondary rounded-2xl md:rounded-tr-3xl md:rounded-bl-3xl md:rounded-br-none md:rounded-tl-none border border-primary/25 transition duration-300 hover:scale-[1.03] hover:z-[50] hover:shadow-lg"
+        >
+          <h6 class="num text-primary/70">02</h6>
+          <h3 class="font-bold text-2xl mt-2 mb-3">WordPress Development</h3>
+          <p class="text-primary/70">
+            Creating dynamic websites with WordPress, customizing themes, and
+            integrating plugins for optimal performance.
+          </p>
+          <a
+            href="https://wa.me/201029379363"
+            target="_blank"
+            class="contact border py-2 px-3 mt-4 block w-fit border-primary/25 rounded-md transition duration-300 hover:text-secondary hover:bg-primary hover:border-primary"
+            >Contact Us</a
+          >
+        </div>
+        <div
+          class="skill-box w-full md:w-[31%] min-w-[300px] p-7 bg-secondary rounded-2xl md:rounded-tl-3xl md:rounded-br-3xl md:rounded-bl-none md:rounded-tr-none border border-primary/25 transition duration-300 hover:scale-[1.03] hover:z-[50] hover:shadow-lg"
+        >
+          <h6 class="num text-primary/70">03</h6>
+          <h3 class="font-bold text-2xl mt-2 mb-3">React Web Applications</h3>
+          <p class="text-primary/70">
+            Developing interactive web applications using React to deliver
+            seamless and fast user experiences.
+          </p>
+          <a
+            href="https://wa.me/201029379363"
+            target="_blank"
+            class="contact border py-2 px-3 mt-4 block w-fit border-primary/25 rounded-md transition duration-300 hover:text-secondary hover:bg-primary hover:border-primary"
+            >Contact Us</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- end services section -->
+
+    <!-- start project section -->
+    <section class="projects my-12" id="Projects">
+      <h1
+        class="section-title text-center font-bold text-6xl md:text-7xl mb-12 text-secondary"
+      >
+        Projects
+      </h1>
+      <div class="container grid grid-cols-1 md:grid-cols-2 px-5 mx-auto gap-5">
+        <div
+          class="project-box first border border-primary/25 overflow-hidden h-[300px] md:h-[350px] lg:h-[550px] relative"
+        >
+          <div
+            class="detail w-[90%] absolute bottom-[20px] left-[50%] translate-x-[-50%] py-2 px-3 border border-primary/35 z-10 backdrop-blur-lg flex justify-between items-center text-xs md:text-sm lg:text-base"
+          >
+            <h4 class="project-name">Business & Technology Agency</h4>
+            <p class="project-type">React Web Application</p>
+          </div>
+          <div
+            class="preview-link w-full h-full absolute z-[20] flex items-center justify-center backdrop-blur-lg"
+          >
+            <a
+              href="https://business-and-technology-9f318.web.app/"
+              target="_blank"
+              class="py-2 px-5 flex items-center gap-2 rounded-tl-xl rounded-br-xl rounded-bl-md rounded-tr-md border border-primary/25 transition duration-300 hover:bg-primary hover:text-secondary hover:border-primary"
+            >
+              <i class="fa-solid fa-eye"></i>
+              preview</a
+            >
+          </div>
+        </div>
+        <div
+          class="project-box second border border-primary/25 overflow-hidden h-[300px] md:h-[350px] lg:h-[550px] relative"
+        >
+          <div
+            class="detail w-[90%] absolute bottom-[20px] left-[50%] translate-x-[-50%] py-2 px-3 border border-primary/35 z-10 backdrop-blur-lg flex justify-between items-center text-xs md:text-sm lg:text-base"
+          >
+            <h4 class="project-name">Clinic Website</h4>
+            <p class="project-type">Website From Scratch</p>
+          </div>
+          <div
+            class="preview-link w-full h-full absolute z-[20] flex items-center justify-center backdrop-blur-lg"
+          >
+            <a
+              href="https://dorratlayan.com/"
+              target="_blank"
+              class="py-2 px-5 flex items-center gap-2 rounded-tl-xl rounded-br-xl rounded-bl-md rounded-tr-md border border-primary/25 transition duration-300 hover:bg-primary hover:text-secondary hover:border-primary"
+            >
+              <i class="fa-solid fa-eye"></i>
+              preview</a
+            >
+          </div>
+        </div>
+        <div
+          class="project-box third border border-primary/25 overflow-hidden h-[300px] md:h-[350px] lg:h-[550px] relative"
+        >
+          <div
+            class="detail w-[90%] absolute bottom-[20px] left-[50%] translate-x-[-50%] py-2 px-3 border border-primary/35 z-10 backdrop-blur-lg flex justify-between items-center text-xs md:text-sm lg:text-base"
+          >
+            <h4 class="project-name">Tourism Company</h4>
+            <p class="project-type">Wordpress Website</p>
+          </div>
+          <div
+            class="preview-link w-full h-full absolute z-[20] flex items-center justify-center backdrop-blur-lg"
+          >
+            <a
+              href="https://smhtc.com/smhtc"
+              target="_blank"
+              class="py-2 px-5 flex items-center gap-2 rounded-tl-xl rounded-br-xl rounded-bl-md rounded-tr-md border border-primary/25 transition duration-300 hover:bg-primary hover:text-secondary hover:border-primary"
+            >
+              <i class="fa-solid fa-eye"></i>
+              preview</a
+            >
+          </div>
+        </div>
+        <div
+          class="project-box four border border-primary/25 overflow-hidden h-[300px] md:h-[350px] lg:h-[550px] relative"
+        >
+          <div
+            class="detail w-[90%] absolute bottom-[20px] left-[50%] translate-x-[-50%] py-2 px-3 border border-primary/35 z-10 backdrop-blur-lg flex justify-between items-center text-xs md:text-sm lg:text-base"
+          >
+            <h4 class="project-name">Marketing Agency</h4>
+            <p class="project-type">Wordpress Website</p>
+          </div>
+          <div
+            class="preview-link w-full h-full absolute z-[20] flex items-center justify-center backdrop-blur-lg"
+          >
+            <a
+              href="https://awal.sa/"
+              target="_blank"
+              class="py-2 px-5 flex items-center gap-2 rounded-tl-xl rounded-br-xl rounded-bl-md rounded-tr-md border border-primary/25 transition duration-300 hover:bg-primary hover:text-secondary hover:border-primary"
+            >
+              <i class="fa-solid fa-eye"></i>
+              preview</a
+            >
+          </div>
+        </div>
+      </div>
+      <div
+        class="container mx-auto px-3 flex justify-center items-center gap-5 mt-7"
+      ></div>
+    </section>
+    <!-- end project section -->
+
+    <!-- start contact me section -->
+    <section class="contact-me my-12" id="ContactMe">
+      <h1
+        class="section-title text-center font-bold text-6xl md:text-7xl mb-12 text-secondary"
+      >
+        Contact Me
+      </h1>
+      <div
+        class="container mx-auto px-5 flex flex-col items-center justify-center"
+      >
+        <form
+          class="contact-form bg-primary/15 w-full md:w-[80%] lg:w-[60%] p-7"
+          method="post"
+          id="contactForm"
+        >
+          <p class="text-primary/60">Contact</p>
+          <h3 class="text-xl md:text-2xl lg:text-3xl mb-5">
+            Let’s get in touch.
+          </h3>
+          <input
+            type="text"
+            placeholder="Name"
+            id="name"
+            class="bg-primary/5 block placeholder:text-primary py-2 px-3 w-full mb-3 outline-none"
+          />
+          <textarea
+            name="message"
+            placeholder="Message"
+            id="message"
+            class="resize-none bg-primary/5 block placeholder:text-primary py-2 px-3 w-full mb-3 outline-none h-[250px]"
+          ></textarea>
+          <button
+            type="submit"
+            target="_blank"
+            class="bg-primary border border-primary text-center hover:bg-transparent hover:border-primary/25 transition duration-300 w-full py-2 mt-3 text-secondary hover:text-primary block"
+          >
+            Send A Message
+          </button>
+        </form>
+        <div
+          class="social-icons w-full md:w-[80%] lg:w-[60%] grid grid-cols-2 gap-2 mt-3"
+        >
+          <a
+            href="https://github.com/Hadymohamed22"
+            target="_blank"
+            class="link-box col-span-2 flex gap-3 w-full bg-primary/5 border border-primary/25 text-primary justify-center items-center py-2 transition duration-300 hover:bg-primary hover:border-primary hover:text-secondary"
+          >
+            <i class="fa-brands fa-github"></i>
+            <h5>GitHub</h5>
+          </a>
+          <a
+            href="linkedin.com/in/hady-elnifali"
+            target="_blank"
+            class="link-box flex gap-3 w-full bg-primary/5 border border-primary/25 text-primary justify-center items-center py-2 transition duration-300 hover:bg-primary hover:border-primary hover:text-secondary"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+            <h5>LinkedIn</h5>
+          </a>
+          <a
+            href="https://wa.me/201029379363"
+            target="_blank"
+            class="link-box flex gap-3 w-full bg-primary/5 border border-primary/25 text-primary justify-center items-center py-2 transition duration-300 hover:bg-primary hover:border-primary hover:text-secondary"
+          >
+            <i class="fa-brands fa-whatsapp"></i>
+            <h5>Whatsapp</h5>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- end contact me section -->
+
+    <!-- start footer -->
+    <footer
+      class="mt-20 flex pb-5 pt-10 bg-secondary flex-col items-center justify-center"
+    >
+      <h1 class="text-3xl md:text-4xl lg:text-5xl font-light">
+        <span class="font-bold">Hady Mohamed </span>'s Portfolio
+      </h1>
+      <div class="social-links mt-2">
+        <ul class="list-none p-0 m-0 flex items-center gap-5 mb-5">
+          <li>
+            <a
+              href="https://wa.me/201029379363"
+              target="_blank"
+              class="transition-all duration-300 text-primary/70 hover:text-primary text-sm md:text-base md:hover:text-lg hover:text-base"
+              ><i class="fa-brands fa-whatsapp"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="linkedin.com/in/hady-elnifali"
+              target="_blank"
+              class="transition-all duration-300 text-primary/70 hover:text-primary text-sm md:text-base md:hover:text-lg hover:text-base"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/Hadymohamed22"
+              target="_blank"
+              class="transition-all duration-300 text-primary/70 hover:text-primary text-sm md:text-base md:hover:text-lg hover:text-base"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="sections">
+        <ul class="list-none p-0 m-0 flex items-center gap-7">
+          <li>
+            <a
+              href="#AboutMe"
+              class="text-sm md:text-base text-primary/70 transition-all duration-300 hover:text-primary"
+              >About Me</a
+            >
+          </li>
+          <li>
+            <a
+              href="#Services"
+              class="text-sm md:text-base text-primary/70 transition-all duration-300 hover:text-primary"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a
+              href="#Projects"
+              class="text-sm md:text-base text-primary/70 transition-all duration-300 hover:text-primary"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a
+              href="#Contact"
+              class="text-sm md:text-base text-primary/70 transition-all duration-300 hover:text-primary"
+              >Contact Me</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- start scroll to top button -->
+    <div
+      class="scroll-to-top fixed bottom-[30px] right-[30px] w-[40px] md:w-[50px] h-[40px] md:h-[50px] rounded-full bg-primary/25 backdrop-blur-md cursor-pointer transition-all duration-300 hover:bg-secondary text-primary text-lg md:text-xl border border-primary"
+      id="scrollToTop"
+    >
+      <i class="fa-solid fa-arrow-up"></i>
+    </div>
+    <!-- end scroll to top button -->
+
+    <!-- sweet alert cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- particles cdn -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- particles file -->
+    <script src="assets/js/particles.js"></script>
+    <!-- font awesome js file  -->
+    <script src="assets/js/all.min.js"></script>
+    <!-- main js file -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
